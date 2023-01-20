@@ -5,17 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <h1>hola mundo
-    </h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-        </ul>
-    </nav>
+    <div>
+        <header class="header__contenedor">
+            <a class="header__logocontenedor" href="./index.html"">
+                <img class="header__logo" src="../img/logo2.jpeg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__anchor" href="../index.html"><h4>INICIO</h4></a></li>
+                    <li class="header__item"><a class="header__anchor" href="../vistas/receta.html"><H4>RECETAS</H4></a></li>
+                    <li class="header__item"><a class="header__anchor" href="../vistas/contacto.html"><H4>CONTACTO</H4></a></li>
+                    <li class="header__item"><a class="header__anchor" href="../vistas/registro.html"><H4>REGISTRO</H4></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <section>
+
+        </section>
+    </main>
+    <footer class="footer__contenedor">
+        <div class="footer__organizador">
+        <h4 class="footer__h4">Síguenos en nuestras redes</h4><br>
+            <div class="footer__redes">
+                <img class="footer__img" src="../img/red_instagram.png" alt="red_instagram">
+                <img class="footer__img" src="../img/red_whatsapp.png" alt="red_whatsapp">
+                <img class="footer__img" src="../img/red_facebook.png" alt="red_facebook">
+            </div>
+        </div>
+        <div class="footer__organizador">
+            <h4 class="footer__h4">Promociones Exclusivas</h4> <br>
+            <form class="footer__suscripciones" action="#" enctype="text/plain" method="get">
+                <div>
+                    <input class="footer__wrp" type="text" name="userName" id="userName" Placeholder="Nombre y Apellido">
+                </div>
+                <div>
+                    <input class="footer__wrp" type="text" name="userEmail" id="userEmail" placeholder="Correo Electronico">
+                </div>
+                <div>
+                    <input class="footer__boton" type="submit" value="S U S C R I B I R M E">
+                </div>
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>
