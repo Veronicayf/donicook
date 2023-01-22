@@ -276,7 +276,6 @@
     }
     .main__video {
         height: 100%;
-        padding: 1rem;
     }
     .footer__contenedor {
         background-color: #d1e9a3;
@@ -310,6 +309,25 @@
     .main__receta{
         display: flex;
         flex-direction: column;
+    }
+    .main__parrafovideo {
+        width: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .main__videocontenedor {
+        width: 50%;
+        margin: auto;
+    }
+    .main__video {
+        height: 100%;
+    }
+    .main__video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
     }
     .main__talles{
         display: flex;
